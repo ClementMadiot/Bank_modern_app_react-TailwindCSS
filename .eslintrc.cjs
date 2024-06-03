@@ -6,6 +6,8 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
+
+    "prettier/react",
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
@@ -18,5 +20,12 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "react/jsx-uses-react": 2,
+    "prettier/prettier": ["error", {"singleQuote": false}],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/display-name": 0,
+    "react/prop-types": [0, { "ignore": ["children"] }],
+    "jsx-a11y/anchor-is-valid": 0
   },
 }
