@@ -21,17 +21,16 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    rgb(222, 249, 250) 0.89%,
+    rgb(190, 243, 245) 17.23%,
+    rgb(157, 237, 240) 42.04%,
+    rgb(125, 231, 235) 55.12%,
+    rgb(92, 225, 230) 71.54%,
+    rgb(51, 187, 207) 100% 
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  /* text-fill-color: transparent; */
 }
 
 .bg-blue-gradient {
@@ -131,10 +130,10 @@
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  filter: blur(700px);
 }
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  filter: blur(650px);
 }
