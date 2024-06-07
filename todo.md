@@ -6,6 +6,8 @@ button hover
 
 - clients : logo hover pure white (GIMP)
 
+- footer change img to logo
+
 # JSX
 
 # Last run :
