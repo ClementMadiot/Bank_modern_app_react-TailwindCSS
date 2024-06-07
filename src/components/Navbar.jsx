@@ -15,7 +15,7 @@ function Navbar() {
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
-            } text-white`}
+            } text-white border-b-2 border-transparent transition duration-200 ease-out hover:border-b-lightBlue`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -37,7 +37,7 @@ function Navbar() {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${
+                className={`font-poppins font-normal cursor-pointer text-[16px] border-b-2 border-transparent transition duration-200 ease-out hover:border-b-lightBlue ${
                   index === navLinks.length - 1 ? 'mr-0' : 'mb-4'
                 } text-white`}
               >

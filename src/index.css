@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,12 +13,22 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --icon-hover: rgb(222, 249, 250);
 }
 
 * {
   scroll-behavior: smooth;
 }
 
+.icons {
+  height: 32px;
+  width: 32px;
+  transition: 0.2s ease-in-out;
+}
+
+.icons:hover {
+  color: var(--icon-hover);
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -26,7 +37,7 @@
     rgb(157, 237, 240) 42.04%,
     rgb(125, 231, 235) 55.12%,
     rgb(92, 225, 230) 71.54%,
-    rgb(51, 187, 207) 100% 
+    rgb(51, 187, 207) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

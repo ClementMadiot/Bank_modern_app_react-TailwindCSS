@@ -8,13 +8,10 @@ function Clients() {
         {clients.map((client) => (
           <div
             key={client.id}
-            className={`flex-1 ${styles.flexCenter} sm:min-w-48 min-w-[120px]`}
+            className={`flex-1 ${styles.flexCenter} mb-6`}
           >
-            <img
-              src={client.logo}
-              alt="client"
-              className="sm:w-48 w-24 object-contain"
-            />
+            <p className={`${styles.flexCenter} ${styles.paragraphIcon} text-[#474748] xs:mx-2 hover:text-white transition duration-300 cursor-default`}>{client.logo}{client.desc}</p>
+            
           </div>
         ))}
       </div>
