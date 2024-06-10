@@ -39,7 +39,7 @@ export const features = [
     icon: <FaShieldHalved className='w-[50%] h-[50%] text-[#00F6FF]'/>,
     title: '100% Secured',
     content:
-      'We take proactive steps make sure your information and transactions are secure.',
+      'We take proactive steps to make sure your information and transactions are secure.',
   },
   {
     id: 'feature-3',

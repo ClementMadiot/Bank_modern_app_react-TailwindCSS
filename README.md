@@ -1,3 +1,10 @@
+# Bank modern app react TailwindCSS
+HookBank is an online banking, I use react vite for this project
+
+# Library used
+- [react-icon](https://www.npmjs.com/package/react-icons)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -6,4 +13,4 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Bank_modern_app_react-TailwindCSS
+
