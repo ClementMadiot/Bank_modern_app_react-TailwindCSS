@@ -1,14 +1,10 @@
-import { FaInstagram, FaXTwitter, FaFacebook, FaLinkedin, FaAirbnb, FaDropbox   } from 'react-icons/fa6';
-
-import { SiBinance, SiCoinbase  } from "react-icons/si";
+import { FaInstagram, FaXTwitter, FaFacebook, FaLinkedin, FaAirbnb, FaDropbox, FaStar, FaShieldHalved, FaPaperPlane} from 'react-icons/fa6';
+import { SiBinance  } from "react-icons/si";
 
 import {
   people01,
   people02,
-  people03,
-  send,
-  shield,
-  star,
+  people03
 } from '../assets'
 
 export const navLinks = [
@@ -33,21 +29,21 @@ export const navLinks = [
 export const features = [
   {
     id: 'feature-1',
-    icon: star,
+    icon: <FaStar className='w-[50%] h-[50%] text-[#00F6FF]'/>,
     title: 'Rewards',
     content:
       'The best credit cards offer some tantalizing combinations of promotions and prizes',
   },
   {
     id: 'feature-2',
-    icon: shield,
+    icon: <FaShieldHalved className='w-[50%] h-[50%] text-[#00F6FF]'/>,
     title: '100% Secured',
     content:
       'We take proactive steps make sure your information and transactions are secure.',
   },
   {
     id: 'feature-3',
-    icon: send,
+    icon: <FaPaperPlane className='w-[50%] h-[50%] text-[#00F6FF]'/>,
     title: 'Balance Transfer',
     content:
       'A balance transfer credit card can save you a lot of money in interest charges.',
