@@ -1,7 +1,3 @@
-# index css
-button hover
-
-# TailwindCSS
 
 
 # Last run :
@@ -10,3 +6,6 @@ button hover
 - deploy it
 
 # DEPENCIES :
+
+- react-icon
+- Tailwind CSS
