@@ -1,4 +1,4 @@
-# Bank modern app react TailwindCSS
+# Bank modern react app using TailwindCSS
 HookBank is an online banking, I use react vite for this project
 
 # Library used
