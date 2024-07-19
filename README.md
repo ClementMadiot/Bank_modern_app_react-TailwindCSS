@@ -16,7 +16,7 @@ Web design of an online bank, that propose the next generation payment method. A
 
 ## <br /> <a name="tech-stack">🛠 Technology Used</a>
 
-- [TailwindCSS](https://tailwindcss.com/docs/installation)
+- [TailwindCSS](https://tailwindcss.com/docs/installation): is a utility-first CSS framework designed to help you rapidly build modern websites without writing a lot of custom CSS.
 
 - [react-icon](https://www.npmjs.com/package/react-icons)
 Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
