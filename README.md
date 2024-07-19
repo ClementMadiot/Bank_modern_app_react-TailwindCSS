@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://brainwave-ai-cm.netlify.app/" target="_blanck"><img src="./src/assets/brainwave-min.png" alt="HookBank"></a>
+  <a href="https://bank-modern-cm.netlify.app/" target="_blanck"><img src="./src/assets/hookbank-min.png" alt="HookBank"></a>
   <h3 align="center">HookBank</h3>
 </div>
 
