@@ -1,16 +1,67 @@
-# Bank modern app react TailwindCSS
-HookBank is an online banking, I use react vite for this project
+<div align="center">
+  <a href="https://brainwave-ai-cm.netlify.app/" target="_blanck"><img src="./src/assets/brainwave-min.png" alt="HookBank"></a>
+  <h3 align="center">HookBank</h3>
+</div>
 
-# Library used
-- [react-icon](https://www.npmjs.com/package/react-icons)
+## <br /> 📋 <a name="table">Summary</a>
+
+- ✨ [Introduction](#introduction)
+- 🛠 [Technology Used](#tech-stack)
+- 🚀 [Launch App](#launch-app)
+- 🎨 [Styling](#style)
+
+## <br /> <a name="introduction">✨ Introduction</a>
+
+Web design of an online bank, that propose the next generation payment method. A new way to make the payment an easy, reliable and secure. I use react vite for this project
+
+## <br /> <a name="tech-stack">🛠 Technology Used</a>
+
 - [TailwindCSS](https://tailwindcss.com/docs/installation)
 
-# React + Vite
+- [react-icon](https://www.npmjs.com/package/react-icons)
+Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
+  
+## <br /> <a name="launch-app">🚀 Launch App</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br/>**Cloning the Repository**
 
-Currently, two official plugins are available:
+```bash
+git clone {git remote URL}
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br/>**installation**
+
+> After cloning the repository, run the command `npm install` to install the project's dependencies.
+
+> Once the dependencies are installed, start the project with the command `npm run dev`.
+
+## <br /> <a name="launch-app">🚀 Styling</a>
+
+Global styling are defined using TailwindCSS in the tailwind.config.js file.
+
+```
+  theme: {
+    extend: {
+      colors: {
+        primary: '#00040f',
+        secondary: '#00f6ff',
+        dimWhite: 'rgba(255,255,255,0.7)',
+        dimBlue: 'rgba(9,151,124,0.1)',
+        transparent: "transparent",
+        lightBlue:"rgb(51, 187, 207)"
+      },
+      fontFamily:{
+        poppins: ["Poppins", "sans-serif"]
+      },
+    },
+    screens: {
+      xs: "480px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
+    }
+  },
+```
 
