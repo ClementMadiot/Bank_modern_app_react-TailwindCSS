@@ -1,6 +1,11 @@
 <div align="center">
   <a href="https://bank-modern-cm.netlify.app/" target="_blanck"><img src="./src/assets/hookbank-min.png" alt="HookBank"></a>
   <h3 align="center">HookBank</h3>
+  <div align="center">
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 </div>
 
 ## <br /> 📋 <a name="table">Summary</a>
@@ -12,11 +17,14 @@
 
 ## <br /> <a name="introduction">✨ Introduction</a>
 
-Web design of an online bank, that propose the next generation payment method. A new way to make the payment an easy, reliable and secure. I use react vite for this project
+**[ENG]** This online bank landing page is designed to present the next-generation payment method, offering a reliable and secure experience. Built with React Vite for fast performance and optimized build times, the site ensures smooth interactions and a modern, responsive layout.
+
+**[FR]** Cette landing page de banque en ligne est conçue pour présenter une méthode de paiement de nouvelle génération, fiable et sécurisée. Développée avec React Vite pour des performances rapides et des temps de construction optimisés, le site garantit une expérience fluide et un design moderne et responsive.
 
 ## <br /> <a name="tech-stack">🛠 Technology Used</a>
 
-- [TailwindCSS](https://tailwindcss.com/docs/installation): is a utility-first CSS framework designed to help you rapidly build modern websites without writing a lot of custom CSS.
+- [TailwindCSS](https://tailwindcss.com/docs/installation): Tailwind CSS is a valuable tool for developers who want to build modern, responsive, and visually appealing websites without sacrificing development speed.
+
 
 - [react-icon](https://www.npmjs.com/package/react-icons)
 Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
